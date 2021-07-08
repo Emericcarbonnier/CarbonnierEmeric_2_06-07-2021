@@ -4,3 +4,16 @@
 .checked{
     color: blue;
 }
+@font-face {
+    font-family: Raleway;
+    src: url(Font/Raleway-VariableFont_wght.ttf);
+}
+body{
+    font-family: Raleway;
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    color: black;
+}
