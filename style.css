@@ -8,12 +8,94 @@
     font-family: Raleway;
     src: url(Font/Raleway-VariableFont_wght.ttf);
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 body{
     font-family: Raleway;
-    padding: 0;
-    margin: 0;
 }
 li{
     list-style: none;
-    color: black;
 }
+
+.inscript a{
+    color: blue !important;
+}
+
+nav li{
+    display: inline-block;
+    width: 10em;
+    
+}
+
+nav ul a:hover{
+    color: rgb(8, 158, 245);
+    border-top: solid;
+    padding-top: 1.4em;
+}
+
+nav{
+    font-size: 0.8em;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+
+nav img{
+    width: 100px;
+}
+
+#search{
+    color: white;
+    background-color: rgb(0, 68, 255);
+    width: 8em;
+    height: 3em;
+    border: solid;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.geo{
+    background-color: rgba(128, 128, 128, 0.425);
+    width: 2em;
+    height: 2em;
+    border: solid;
+    border-radius: 10px 0px 0px 10px;
+    text-align: center;
+}
+
+#recherche{
+    display: flex;
+  }
+
+input{
+    border: solid;
+    border-color: grey;
+}
+
+
+
+
+
+
+
+
+
+#hébergements img{
+    width: 250px;
+    height: 150px;
+}
+
+#populaire img{
+    width: 250px;
+    height: 150px;
+}
+

@@ -13,11 +13,11 @@
     <header>
         <!-- logo+menus -->
         <nav>
+            <a href="#"><img src="images/logo/Reservia@3x.png" alt="Reservia"></a>
             <ul>
-                <li id=logo><a href="#"><img src="images/logo/Reservia@3x.png" alt="Reservia"></a></li>
                 <li><a href="#hébergements">Hébergements</a></li>
                 <li><a href="#activités">Activités</a></li>
-                <li><a href="#inscription">S'inscrire</a></li>
+                <li class=inscript><a href="#inscription">S'inscrire</a></li>
             </ul>
         </nav>
         <Div id=sousmenu>
@@ -28,9 +28,9 @@
         <!-- Géolocalisation -->
 
         <div id="recherche">
-            <button><i class="fas fa-map-marker-alt"></i></button>
-            <input placeholder="Ville, Pays">
-            <button id=recherche>Rechercher</button>
+            <div class=geo><i class="fas fa-map-marker-alt"></i></div>
+            <input type="search" placeholder="Marseille, France">
+            <button id=search>Rechercher</button>
         </div>
 
         <!-- filtres -->
@@ -59,11 +59,9 @@
     <h1>Hébergements à Marseille</h1>
 
     <div class="auberge">
-        <p>
             <a href=""><img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière"></a>
         <h2>Auberge la Cannebière</h2>
-        Nuit à partir de 25€
-        </p>
+        <p> à partir de 25€</p>
         <div class=vote>
             <span class="fas fa-star checked"></span>
             <span class="fas fa-star checked"></span>
