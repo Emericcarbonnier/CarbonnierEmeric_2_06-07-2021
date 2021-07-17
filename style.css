@@ -163,6 +163,7 @@ input{
 #hebergement_pop{
     display: flex;
     justify-content: space-between;
+    height: auto;
     
 }
 #hebergement_pop h2{
@@ -170,7 +171,8 @@ input{
 }
 
 .blocH{
-    padding: 0.5em;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.26);
+    padding: 0.3em;
     border-radius: 20px;
     align-items: stretch;
     background-color:white;
@@ -259,6 +261,7 @@ input{
 }
 
 .BlocP{
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.26);
     display: flex;
     border-radius: 20px;
     align-items: stretch;
@@ -277,16 +280,81 @@ input{
 }
 
 .plus{
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 30px;
     padding-bottom: 5px;
 }
 
+/* activité */
+
+#activités{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 .grille{
-    max-width: 1440px;
-    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 45rem;
+    max-width: 100%;
+}
+
+#activités h1{
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.grille img{
+    object-fit: cover;
+}
+
+.grille h2{
+    margin-left: 15px;
+}
+.col1_3{
+    border-radius: 15px 15px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.26);
+
+}
+.col1_3 img{
+    width: 20rem;
+    height: 23rem;
+    border-radius: 15px 15px 0 0;
+}
+
+.col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col2 img{
+    width: 20rem;
+    height: 9rem;
+    border-radius: 15px 15px 0 0;
+}
+
+.col4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.col4 img{
+    width: 20rem;
+    height: 9rem;
+    border-radius: 15px 15px 0 0;
+}
+
+.image{
+    border-radius: 15px 15px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.26);
+
 }
 
 
