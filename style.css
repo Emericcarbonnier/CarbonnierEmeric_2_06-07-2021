@@ -110,7 +110,7 @@ body {
     color: #0065fc;
   }
   
-  #sousmenu h1{
+  #sousmenu h2{
     font-size: 3em;
   }
 
@@ -122,6 +122,9 @@ body {
   padding: 0;
   margin: 0;
 }
+.fa-star {
+  font-size: 25px;
+}
 }
   
 
@@ -129,9 +132,20 @@ h1 {
   font-size: 2em;
 }
 
-h2 {
+
+h3{
   font-size: 1em;
 }
+
+@media screen and (max-width: 980px) {
+  h1{
+    font-size: 3.1em;
+  }
+
+  h3{
+    font-size: 2em;
+  }
+  }
 
 /* Barre de recherche */
 
@@ -219,7 +233,7 @@ input{
 /* Filtre */
 
 #filtre {
-  margin-top: 30px;
+  margin-top: 40px;
   height: 50px;
   font-size: 1em;
   display: flex;
@@ -227,8 +241,10 @@ input{
   align-items: center;
   max-width: 70%;
 }
-#filtre h1 {
-  font-size: 1.2em;
+
+
+#filtre h2 {
+  font-size: 1.5em;
 }
 #filtre i {
   padding: 10px;
@@ -258,7 +274,7 @@ input{
 @media screen and (max-width: 990px) {
 
   #filtre{
-    margin: 0;
+    margin-top: 10px;
     padding: 0;
   font-size: 3em ;
   display: flex;
@@ -267,6 +283,9 @@ input{
   max-width: 100%;
   align-items: flex-start;
 
+}
+#filtre h2 {
+  font-size: 1em;
 }
 
 #filtre a{
@@ -302,6 +321,7 @@ input{
 
   #infos{
     font-size: 2em;
+    margin-top: 30px;
   }
 }
 
@@ -313,7 +333,7 @@ input{
   height: auto;
   padding-top: 35px;
 }
-#hebergement_pop h2 {
+#hebergement_pop h3 {
   font-weight: bold;
 }
 
@@ -336,7 +356,7 @@ input{
   transition-duration: 0.2s;
 }
 
-.blocH h1 p {
+.blocH h2 p {
   margin-left: 200px;
 }
 
@@ -381,15 +401,16 @@ input{
 #hebergement_pop p {
   font-size: 1em;
 }
-#hebergement_pop h1 {
-  font-size: 1.3em;
+#hebergement_pop h2 {
+  font-size: 1.6em;
   font-weight: bold;
   margin-left: 30px;
 }
-#hebergement_pop h2 {
+#hebergement_pop h3 {
   font-weight: bold;
   color: black;
-  font-size: 1em;
+  font-size: 1.3em;
+  margin-left: px;
 }
 
 #hébergements_marseille img {
@@ -465,7 +486,24 @@ input{
 
   #hebergement_pop section{
     background-color: white;
-    order: 2;
+
+  }
+
+  #hebergement_pop h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  #hebergement_pop h3 {
+    font-weight: bold;
+    font-size: 2em
+  }
+  #hebergement_pop p {
+    font-size: 2em;
+  }
+  .plus{
+    font-size: 2em;
   }
 
   .blocH{
@@ -538,8 +576,8 @@ input{
   max-width: 100%;
 }
 
-#activités h1 {
-  font-size: 1.5em;
+#activités h2 {
+  font-size: 1.8em;
   font-weight: bold;
 }
 
@@ -547,7 +585,7 @@ input{
   object-fit: cover;
 }
 
-.grille h2 {
+.grille h3 {
   margin-left: 15px;
 }
 
@@ -606,6 +644,7 @@ input{
 @media screen and (max-width: 990px) {
 
   .grille{
+    margin-top: 20px;
   display: flex;
   flex-direction: column;
   max-height: 100%;
@@ -620,9 +659,13 @@ input{
   .col1_3 img{
     height: 20em;
   
-  
   }
   
+  #activités h2 {
+    font-size: 3em;
+    margin-top: 50px;
+  }
+
   .col2 img{
   height: 20em;
   
@@ -680,5 +723,13 @@ input{
 .footer{
   display: flex;
   flex-direction: column;
+  font-size: 2em;
+}
+.blocf a{
+  margin-bottom: 30px;
+}
+.blocf h2{
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 }
