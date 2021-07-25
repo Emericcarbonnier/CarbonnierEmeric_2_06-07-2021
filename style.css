@@ -13,6 +13,7 @@
 .main{
   max-width: 1400px;
   margin: auto;
+  height: 100%;
 
 }
 a {
@@ -80,8 +81,10 @@ body {
 /* responsive menu */
 
 @media screen and (max-width: 980px) {
+
+
  .main{
-   margin: 5px 50px;
+   padding: 30px;
  }
 
   .menu img{
@@ -332,6 +335,7 @@ input{
   justify-content: space-between;
   height: auto;
   padding-top: 35px;
+  margin: 0 !important;
 }
 #hebergement_pop h3 {
   font-weight: bold;
@@ -401,6 +405,9 @@ input{
 #hebergement_pop p {
   font-size: 1em;
 }
+#hebergement_pop a {
+  padding: 0.5em;
+}
 #hebergement_pop h2 {
   font-size: 1.6em;
   font-weight: bold;
@@ -445,7 +452,6 @@ input{
   align-items: stretch;
   background-color: white;
   margin: 15px;
-  padding: 0.2em;
 }
 
 .BlocP:hover {
@@ -457,9 +463,6 @@ input{
   margin-right: 30px;
 }
 
-.colP .vote {
-  padding-top: 25px;
-}
 
 .plus {
   font-size: 1.3em;
@@ -474,6 +477,7 @@ input{
   transform: scale(1.02);
   transition-duration: 0.2s;
 }
+
 /* responsive hébergement */
 
 @media screen and (max-width: 990px) {
@@ -486,9 +490,14 @@ input{
 
   #hebergement_pop section{
     background-color: white;
+    border-radius: 0;
+    padding-bottom: 30px;
 
   }
-
+  .fa-chart-line {
+    font-size: 4em;
+    margin-right: 30px;
+  }
   #hebergement_pop h2 {
     font-size: 3em;
     font-weight: bold;
@@ -510,16 +519,19 @@ input{
     width: 100%;
     margin: 0;
     margin-bottom: 50px;
+    padding-bottom: 35px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33);
   }
 
   .blocH a{
     height: 400px;
+
   }
 
   #hébergements_marseille{
-    width: 100%;
-    background-color: white;
+    width: auto;
     padding: 0;
+    padding-right: 0px;
   }
 
   #hébergements_marseille img{
@@ -529,8 +541,10 @@ input{
   #populaire{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: auto;
     padding: 0;
+    background-color: #deebff !important;
+    margin: -30px;
   }
 
   #populaire a img{
@@ -547,8 +561,9 @@ input{
   }
 
   .BlocP{
-    margin: 0;
+    margin: 30px;
     margin-top: 25px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33);
   }
 
 .l1{
@@ -558,6 +573,10 @@ input{
 .l2{
   width: 100%;
   flex-direction: column;
+}
+
+.poph1{
+  margin: 30px;
 }
 
 }
@@ -591,7 +610,7 @@ input{
 
 .col1_3 {
   border-radius: 15px 15px;
-  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.26);
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33);
 }
 
 .col1_3:hover {
@@ -606,6 +625,7 @@ input{
 }
 
 .col2 {
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -631,7 +651,7 @@ input{
 
 .image {
   border-radius: 15px 15px;
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.26);
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33);
 }
 
 .image:hover {
@@ -694,14 +714,14 @@ input{
 
 /* footer */
 .fond {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   background-color: #deebff;
+
 }
+
 .footer {
-  height: 150px;
   margin: 30px 30px;
-  max-width: 80%;
   display: flex;
   justify-content: space-between;
 }
@@ -721,9 +741,13 @@ input{
 
 
 .footer{
+  margin-left: -30px;
+  margin-right: -30px;
+  margin-bottom: -30px;
   display: flex;
   flex-direction: column;
   font-size: 2em;
+  background-color: #deebff;
 }
 .blocf a{
   margin-bottom: 30px;
@@ -732,4 +756,10 @@ input{
   margin-bottom: 30px;
   margin-top: 30px;
 }
+
+.blocf{
+  padding-left: 50px;
+
+}
+
 }
