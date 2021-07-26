@@ -355,10 +355,6 @@ input{
   flex-direction: column;
 }
 
-.blocH:hover {
-  transform: scale(1.04);
-  transition-duration: 0.2s;
-}
 
 .blocH h2 p {
   margin-left: 200px;
@@ -454,10 +450,6 @@ input{
   margin: 15px;
 }
 
-.BlocP:hover {
-  transform: scale(1.04);
-  transition-duration: 0.2s;
-}
 .colP {
   margin-left: 10px;
   margin-right: 10px;
@@ -473,10 +465,6 @@ input{
   padding-bottom: 5px;
 }
 
-.plus:hover {
-  transform: scale(1.02);
-  transition-duration: 0.2s;
-}
 
 .vote{
   margin-bottom: 15px;
@@ -618,10 +606,6 @@ input{
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33);
 }
 
-.col1_3:hover {
-  transform: scale(1.04);
-  transition-duration: 0.2s;
-}
 
 .col1_3 img {
   width: 20rem;
@@ -659,10 +643,6 @@ input{
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33);
 }
 
-.image:hover {
-  transform: scale(1.04);
-  transition-duration: 0.2s;
-}
 
 /* responsive activités à marseille */
 
