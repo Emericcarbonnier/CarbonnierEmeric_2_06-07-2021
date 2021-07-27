@@ -1,5 +1,5 @@
 
-.fa-star {
+.no_checked {
   color: rgb(202, 199, 199);
   font-size: 15px;
 }
@@ -531,14 +531,11 @@ input{
     display: flex;
     flex-direction: column;
     width: auto;
-    padding: 0;
     background-color: #deebff !important;
     margin: -30px;
   }
 
   #populaire a img{
-    margin: 0;
-    padding: 0;
     width: 400px;
     height: 300px;
   }
