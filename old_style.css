@@ -222,7 +222,6 @@ input{
 }
 .search2{
   display: inherit;
-
 }
 .fa-search{
   font-size: 50px;
@@ -274,8 +273,8 @@ input{
 @media screen and (max-width: 990px) {
 
   #filtre{
-    margin-top: 10px;
-    padding: 0;
+  margin-top: 10px;
+  padding: 0;
   font-size: 3em ;
   display: flex;
   flex-direction: column;
