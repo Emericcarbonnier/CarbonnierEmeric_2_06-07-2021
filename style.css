@@ -1,13 +1,10 @@
+
 .fa-star {
   color: rgb(202, 199, 199);
   font-size: 15px;
 }
 .checked {
   color: #0065fc;
-}
-@font-face {
-  font-family: Raleway;
-  src: url(Font/Raleway-VariableFont_wght.ttf);
 }
 
 .main{
