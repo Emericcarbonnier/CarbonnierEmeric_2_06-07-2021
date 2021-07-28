@@ -5,8 +5,9 @@
 /* MENU */
 
 body {
-  max-width: 310px;
-  margin: auto;
+  padding-top: 5px;
+  margin: 0;
+  max-width: 425px;
   font-family: "Raleway";
 }
 
@@ -18,10 +19,12 @@ a {
 .inscription {
   color: #0065fc;
   font-weight: bold;
+  margin: 0 15px 0 15px;
 }
 
 .logo img {
   width: 100px;
+  margin: 0 15px 0 15px;
 }
 
 .header {
@@ -33,18 +36,39 @@ a {
 }
 
 .navigation {
+  margin-top: 20px;
+  margin-bottom: 5px;
   width: 100%;
   order: 2;
   display: flex;
+
 }
 
 .navigation a {
+  padding-bottom: 15px;
+  border-bottom: 4px solid rgba(28,110,164,0.08);
   width: 50%;
   text-align: center;
+
+}
+
+.navigation a:hover{
+  border-bottom: solid;
+  font-weight: bolder;
+  cursor: pointer;
+  color: #0065fc;
 }
 
 /* SOUS MENU */
-
+h1{
+  font-size: 1.5em;
+}
+.titre{
+  margin: 0 15px 0 15px;
+}
+.titre p{
+  font-size: 1.2em;
+}
 /* RECHERCHE */
 
 .fa-map-marker-alt {
@@ -56,14 +80,16 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
-  width: 30%;
+  width: 20%;
   border-radius: 10px 0px 0px 10px;
 }
 
 .recherche {
   display: flex;
+  justify-content: center;
   height: 50px;
   max-width: 100%;
+  margin: 0 15px 0 15px;
 }
 
 .recherche button {
@@ -71,9 +97,9 @@ a {
   color: white;
   background-color: #0065fc;
   font-size: 1em;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px 10px 10px 10px;
   cursor: pointer;
-  width: 30%;
+  width: 20%;
 }
 
 input {
@@ -81,7 +107,7 @@ input {
   font-size: 1em;
   font-weight: bold;
   color: black;
-  max-width: 55%;
+  max-width: 70%;
 }
 .search {
   display: none;
@@ -89,11 +115,13 @@ input {
 
 .search2 {
   display: inherit;
+
 }
 
 /* filtre */
 
 .filtre {
+  margin: 0 15px 0 15px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -123,6 +151,7 @@ input {
 /* info */
 
 .info {
+  margin: 0 15px 0 15px;
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -158,10 +187,12 @@ h3{
 }
 
 .hebergement_marseille {
+  margin: 0 15px 0 15px;
   max-width: 100%;
 }
 
 .bloc_hebergement {
+  margin: 0 15px 0 15px;
   padding: 0.3em;
   border-radius: 20px;
   display: flex;
@@ -193,16 +224,22 @@ h3{
 }
 
 .plus {
+    margin: 0 15px 0 15px;
     font-size: 1.3em;
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 30px;
     padding-bottom: 5px;
   }
 
 /* les plus populaire */
 
+.populaire{
+  order: 1;
+  width: 100%;
+  background-color: #deebff;
+  padding-bottom:20px ;
+}
 
 .populaire img {
     object-fit: cover;
@@ -213,21 +250,23 @@ h3{
   
   }
 
-  
   .titre_populaire {
+    margin: 0 15px 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .fa-chart-line {
+  .sigle_populaire {
+    margin: 0 15px 0 15px;
     font-size: 2em;
-    margin-right: 30px;
   }
   
   .bloc_populaire {
-    margin-top: 15px;
-    width: 100%;
+    margin: 0 15px 0 15px;
+    background-color: white;
+    margin-bottom: 15px;
+    width: 90%;
     height: 150px;
     display: flex;
     flex-direction: row;
@@ -240,18 +279,17 @@ h3{
   .text_bloc_populaire{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin: 0;
     padding-right: ;
   }
 
   .text_bloc_populaire p{
-    margin-top: 5px;
-    margin-bottom: 0;
+    margin-top: 15px;
+    margin-bottom: 10;
     margin-left: 10px;
   }
   .text_bloc_populaire h3{
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 0;
     margin-left: 10px;
   }
@@ -265,6 +303,7 @@ h3{
   }
   
   .bloc_activité{
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -278,8 +317,8 @@ h3{
   
   
   .colone_1_3 {
+    margin: 0 15px 0 15px;
     margin-top: 25px;
-    width: 100%;
     border-radius: 15px 15px;
     box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.35);
   }
@@ -291,6 +330,7 @@ h3{
   }
   
   .colonne_2 {
+    margin: 0 15px 0 15px;
     display: flex;
     flex-direction: column;
   }
@@ -301,7 +341,7 @@ h3{
   }
   
   .colonne_4 {
-
+    margin: 0 15px 0 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -328,4 +368,31 @@ h3{
 
   .bloc_activité h3{
     padding-left: 10px;
+  }
+
+  /* footer */
+
+  .footer {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #deebff;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .blocfooter {
+    margin: 0 20px 0 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blocfooter a {
+    margin-top: 10px;
+  }
+
+  .blocfooter h2{
+    margin-top: 50px;
+    margin-bottom: 5px;
   }
