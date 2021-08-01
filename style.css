@@ -542,7 +542,7 @@ h3 {
 @media screen and (min-width: 426px) and (max-width: 1024px){
 
   body {
-    margin: auto;
+    margin: 0px 15px 0px 15px;
     max-width: 1000px;
   }
 
@@ -582,8 +582,11 @@ h3 {
   .main {
     width: 100%;
   }
-
+.plus{
+  padding-bottom: 25px;
+}
   .hebergement_marseille {
+    margin: 0;
     border-radius: 20px;
     background-color: #deebff;
   }
@@ -593,7 +596,6 @@ h3 {
     justify-content: space-around;
   }
   .populaire {
-    margin: 0 15px 0 15px;
     border-radius: 20px;
     max-width: 100%;
     display: flex;
