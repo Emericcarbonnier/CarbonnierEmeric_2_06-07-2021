@@ -147,6 +147,12 @@ input {
   border-radius: 40px 40px 40px 40px;
 }
 
+.filtre a:hover {
+  transform: scale(1.04);
+  transition-duration: 0.2s;
+  border-color: #0065fc;
+}
+
 /* info */
 
 .info {
@@ -530,6 +536,7 @@ h3 {
   /* footer */
 
   .footer {
+    margin: 35px 50px 0px px;
     padding-bottom: 20px;
     flex-direction: row;
     border-radius: 20px;
