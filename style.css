@@ -5,12 +5,14 @@
 /* MENU */
 
 body {
-  padding-top: 5px;
+  padding: 0;
   margin: 0;
   max-width: 425px;
   font-family: "Raleway";
 }
-
+.container{
+  margin: 0 15px 0 15px;
+}
 a {
   text-decoration: none;
   color: black;
@@ -19,12 +21,10 @@ a {
 .inscription {
   color: #0065fc;
   font-weight: bold;
-  margin: 0 15px 0 15px;
 }
 
 .logo img {
   width: 100px;
-  margin: 0 15px 0 15px;
 }
 
 .header {
@@ -62,7 +62,7 @@ h1 {
   font-size: 1.5em;
 }
 .titre {
-  margin: 0 15px 0 15px;
+
 }
 .titre p {
   font-size: 1.2em;
@@ -87,7 +87,7 @@ h1 {
   justify-content: center;
   height: 50px;
   max-width: 100%;
-  margin: 0 15px 0 15px;
+
 }
 
 .recherche button {
@@ -118,7 +118,6 @@ input {
 /* filtre */
 
 .filtre {
-  margin: 0 15px 0 15px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -155,7 +154,7 @@ input {
 /* info */
 
 .info {
-  margin: 0 15px 0 15px;
+
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -194,10 +193,10 @@ h3 {
 }
 
 .hebergement_marseille {
-  margin: 0 15px 0 15px;
+
 }
 .hebergement_marseille h2 {
-  margin: 0 15px 0 15px;
+
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -234,7 +233,7 @@ h3 {
 }
 
 .plus {
-  margin: 0 15px 0 15px;
+
   font-size: 1.3em;
   font-weight: bold;
   margin-top: 50px;
@@ -259,19 +258,19 @@ h3 {
 }
 
 .titre_populaire {
-  margin: 0 15px 0 15px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .sigle_populaire {
-  margin: 0 15px 0 15px;
+
   font-size: 2em;
 }
 
 .bloc_populaire {
-  margin: 0 15px 0 15px;
+
   background-color: white;
   margin-bottom: 15px;
   height: 150px;
@@ -309,10 +308,10 @@ h3 {
 
 #activités_marseille h2 {
   padding-top: 25px;
-  margin: 0 15px 0 15px;
+
 }
 .bloc_activité {
-  margin: 0 15px 0 15px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
