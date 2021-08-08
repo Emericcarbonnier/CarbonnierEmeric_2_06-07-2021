@@ -144,8 +144,7 @@ input {
   font-weight: bold;
   padding-right: 20px;
   border: #deebff solid;
-
-  border-radius: 40px 40px 40px 40px;
+  border-radius: 40px;
 }
 
 .filtre a:hover {
@@ -245,7 +244,6 @@ margin: 10px;
 /* les plus populaire */
 
 .populaire {
-  order: 1;
   background-color: #deebff;
   padding-bottom: 20px;
 }
@@ -397,11 +395,13 @@ margin: 10px;
   margin-bottom: 5px;
 }
 
+/* DESKTOP */
+
 @media screen and (min-width: 1025px) and (max-width: 2560px) {
 
   .container{
     margin: auto;
-    max-width: 1440px;
+    max-width: 1420px;
   }
   .header {
     display: grid;
@@ -464,7 +464,7 @@ margin: 10px;
   /* filtre */
 
   .filtre {
-    width: 60%;
+    width: 85%;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -555,7 +555,7 @@ margin: 10px;
   }
 }
 
-
+/* TABLETTE XL */
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
 
@@ -600,7 +600,7 @@ margin: 10px;
   .hebergement_marseille {
     margin: 0;
     margin-top: 10px;
-    background-color: #deebff;
+    background-color:white;
   }
   .hebergement_marseille h2{
     margin: 15px;
@@ -671,6 +671,10 @@ margin: 10px;
 
 }
 
+
+/* TABLETTE */
+
+
 @media screen and (min-width: 426px) and (max-width: 768px){
 
   .container{
@@ -720,7 +724,7 @@ input{
 .hebergement_marseille {
   margin: 0;
   margin-top: 10px;
-  background-color: #deebff;
+  background-color: white;
 }
 .ligne_hebergement {
   display: flex;
