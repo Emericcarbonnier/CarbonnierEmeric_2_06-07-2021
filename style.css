@@ -205,9 +205,8 @@ margin: 15px;
 }
 
 .hebergement_marseille h2 {
-
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .bloc_hebergement {
@@ -495,7 +494,7 @@ margin-top: 5px;
     
     margin-top: 15px;
     display: flex;
-    width: 75%;
+    width: 90%;
     flex-direction: row;
     align-items: center;
   }
@@ -569,11 +568,11 @@ margin-top: 5px;
 
   }
   #activites_marseille h2 {
-    margin: 0 15px 0 15px;
+    margin: 0;
   }
   
   #activites_marseille h3 {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .bloc_activite {
@@ -586,7 +585,7 @@ margin-top: 5px;
     width: 24%;
   }
   .colone_1_3 img {
-    height: 410px;
+    height: 400px;
   }
   .colonne_2 {
     width: 24%;
