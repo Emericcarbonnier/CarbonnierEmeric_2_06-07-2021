@@ -116,6 +116,10 @@ input {
   font-weight: bold;
   max-width: 70%;
 }
+
+input::placeholder{
+  color: black;
+}
 .search {
   display: none;
 }
@@ -419,7 +423,7 @@ margin-top: 5px;
 
   .container{
     margin: auto;
-    max-width: 1440px;
+    max-width: 1420px;
   }
   .header {
     display: grid;
@@ -459,7 +463,9 @@ margin-top: 5px;
   }
 
   /* RECHERCHE */
-
+.sousmenu{
+  margin: 0;
+}
   .search {
     display: inherit;
   }
@@ -558,7 +564,9 @@ margin-top: 5px;
   /* Activités à marseille */
 
   #activites_marseille{
+    margin: 0;
     margin-top: 20px;
+
   }
   #activites_marseille h2 {
     margin: 0 15px 0 15px;
@@ -570,13 +578,15 @@ margin-top: 5px;
 
   .bloc_activite {
     flex-direction: row;
+    align-items: flex-end;
   }
   .colone_1_3 {
+    margin: 0;
     height: 100%;
     width: 24%;
   }
   .colone_1_3 img {
-    height: 400px;
+    height: 410px;
   }
   .colonne_2 {
     width: 24%;
@@ -593,6 +603,8 @@ margin-top: 5px;
   /* footer */
 
   .footer {
+    margin: 0;
+    margin-top: 20px;
     padding-bottom: 20px;
     flex-direction: row;
     border-radius: 20px;
