@@ -446,6 +446,7 @@ h3 {
     margin: auto;
     max-width: 1440px;
   }
+
   .header {
     display: grid;
     grid-template-columns: auto 1fr auto auto;
@@ -543,10 +544,11 @@ h3 {
   .no_checked {
     font-size: 15px;
   }
-  
+
   .checked {
     font-size: 15px;
   }
+
   .main {
     width: 100%;
     flex-direction: unset;
@@ -585,9 +587,11 @@ h3 {
     margin-top: 5px;
     margin-left: 5px;
   }
-.populaire img{
-  width: 120px;
-}
+
+  .populaire img {
+    width: 120px;
+  }
+
   .infos_populaire {
     justify-content: space-around;
   }
@@ -712,7 +716,7 @@ h3 {
   .no_checked {
     font-size: 15px;
   }
-  
+
   .checked {
     font-size: 15px;
   }
@@ -870,7 +874,7 @@ h3 {
   .no_checked {
     font-size: 15px;
   }
-  
+
   .checked {
     font-size: 15px;
   }
