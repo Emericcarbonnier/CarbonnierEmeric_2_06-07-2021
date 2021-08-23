@@ -109,13 +109,13 @@ h1 {
 }
 
 .recherche button {
-  border: solid 2px;
+  border: 0;
   border-color: #f2f2f2;
   align-items: center;
   color: white;
   background-color: #0065fc;
   font-size: 1em;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 0px 10px 10px 0px;
   cursor: pointer;
   width: 20%;
 }
@@ -590,7 +590,7 @@ h3 {
   .populaire img {
     width: 120px;
   }
-  
+
 .titre_populaire{
   margin-bottom: 25px;
 }
