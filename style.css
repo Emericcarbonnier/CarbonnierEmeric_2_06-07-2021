@@ -296,7 +296,7 @@ h3 {
   font-size: 2em;
 }
 
-.bloc_populaire {
+.bloc_populaire a {
   background-color: white;
   margin-bottom: 15px;
   height: 140px;
@@ -769,7 +769,7 @@ h3 {
     padding: 0.3em;
   }
 
-  .bloc_populaire {
+  .bloc_populaire a {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -927,7 +927,7 @@ h3 {
     padding: 0.3em;
   }
 
-  .bloc_populaire {
+  .bloc_populaire a {
     height: 210px;
   }
 
