@@ -99,8 +99,6 @@ h1 {
 }
 
 .recherche {
-  border: solid;
-  border-width: 3px;
   border-radius: 10px 10px 10px 10px;
   border-color: #f2f2f2;
   display: flex;
@@ -121,7 +119,7 @@ h1 {
 }
 
 input {
-  border: none;
+  border: solid #f2f2f2 2px;
   font-size: 1em;
   font-weight: bold;
   max-width: 70%;
@@ -133,6 +131,7 @@ input::placeholder {
 }
 
 .search {
+  font-family: "Raleway" !important;
   display: none;
 }
 
@@ -583,6 +582,7 @@ h3 {
   }
 
   .text_bloc_populaire {
+    padding-right: 2px;
     margin-top: 5px;
     margin-left: 5px;
   }
@@ -591,9 +591,9 @@ h3 {
     width: 120px;
   }
 
-.titre_populaire{
-  margin-bottom: 25px;
-}
+  .titre_populaire {
+    margin-bottom: 25px;
+  }
 
   .infos_populaire {
     justify-content: space-around;
@@ -657,6 +657,9 @@ h3 {
   }
 
   /* footer */
+  .fond_footer {
+    background-color: #f2f2f2;
+  }
 
   .footer {
     margin: 0 15px 0 15px;
@@ -771,7 +774,7 @@ h3 {
     display: flex;
     flex-direction: column;
     height: 400px;
-    
+
   }
 
   .main {
@@ -974,7 +977,7 @@ h3 {
 
   .footer {
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 0px;
   }
 
   .blocfooter h2 {
