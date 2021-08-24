@@ -280,7 +280,6 @@ h3 {
 .populaire img {
   object-fit: cover;
   width: 130px;
-  height: 130px;
   border-radius: 20px 0px 0 20px;
   padding: 0.3em;
 }
@@ -309,7 +308,7 @@ h3 {
 
 .vote_pop {
   display: flex;
-  margin: 5px;
+  margin-left: 5px;
   margin-bottom: 10px;
 }
 
@@ -317,10 +316,11 @@ h3 {
   display: flex;
   flex-direction: column;
   margin-top: 15px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .infos_populaire {
+  padding: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -922,7 +922,6 @@ h3 {
   .populaire img {
     object-fit: cover;
     width: 250px;
-    height: 200px;
     border-radius: 20px 0px 0 20px;
     padding: 0.3em;
   }
